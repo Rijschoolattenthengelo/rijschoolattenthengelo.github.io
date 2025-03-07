@@ -69,4 +69,17 @@ header.masthead .container {
 #submitButton:hover {
   background-color: #2980b9 !important;
   border-color: #2980b9 !important;
+}
+
+#contact {
+    background-color: #212529 !important;
+    color: white;
+}
+
+#contact .section-heading {
+    color: white;
+}
+
+#contact .section-subheading {
+    color: rgba(255, 255, 255, 0.7);
 } 
