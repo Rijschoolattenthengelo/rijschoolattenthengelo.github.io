@@ -1,0 +1,85 @@
+:root {
+  --bs-primary: #3498db;
+  --bs-primary-rgb: 52, 152, 219;
+  --bs-link-color: #3498db;
+  --bs-link-hover-color: #2980b9;
+}
+
+.btn-primary {
+  --bs-btn-bg: #3498db;
+  --bs-btn-border-color: #3498db;
+  --bs-btn-hover-bg: #2980b9;
+  --bs-btn-hover-border-color: #2980b9;
+  --bs-btn-active-bg: #2980b9;
+  --bs-btn-active-border-color: #2980b9;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #3498db;
+  --bs-btn-border-color: #3498db;
+  --bs-btn-hover-bg: #3498db;
+  --bs-btn-hover-border-color: #3498db;
+  --bs-btn-active-bg: #3498db;
+  --bs-btn-active-border-color: #3498db;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #3498db;
+}
+
+.timeline > li .timeline-image {
+  background-color: #3498db;
+}
+
+section#contact form#contactForm .form-control:focus {
+  border-color: #3498db;
+}
+
+.navbar-brand {
+  color: #3498db !important;
+}
+
+header.masthead {
+  height: 100vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+header.masthead .container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(52, 152, 219, 0.9) !important;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  color: white !important;
+}
+
+#submitButton {
+  background-color: #3498db !important;
+  border-color: #3498db !important;
+}
+
+#submitButton:hover {
+  background-color: #2980b9 !important;
+  border-color: #2980b9 !important;
+}
+
+#contact {
+    background-color: #212529 !important;
+    color: white;
+}
+
+#contact .section-heading {
+    color: white;
+}
+
+#contact .section-subheading {
+    color: rgba(255, 255, 255, 0.7);
+} 
