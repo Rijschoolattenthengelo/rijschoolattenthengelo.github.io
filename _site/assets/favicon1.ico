@@ -1,0 +1,15 @@
+// Dit is een placeholder bestand. Een echte favicon.ico is een binair bestand.
+// Om een favicon te krijgen voor je rijschool website, kun je een van deze opties gebruiken:
+
+// Optie 1: Voer het script uit dat ik heb gemaakt:
+// node scripts/generate-favicon.js
+
+// Optie 2: Maak zelf een favicon online:
+// 1. Ga naar https://favicon.io/
+// 2. Kies "Emoji Favicons" en zoek naar "car" of "automobile"
+// 3. Of kies "Text Favicons" en maak een favicon met de letter "A" (voor Attent)
+// 4. Download het pakket en plaats favicon.ico in deze map (src/assets/)
+
+// Optie 3: Gebruik een bestaand logo:
+// Als je al een logo hebt voor Rijschool Attent, upload het naar https://favicon.io/favicon-converter/
+// en converteer het naar een favicon 

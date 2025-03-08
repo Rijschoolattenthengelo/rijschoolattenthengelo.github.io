@@ -74,6 +74,7 @@ header.masthead .container {
 #contact {
     background-color: #212529 !important;
     color: white;
+    background-image: none !important;
 }
 
 #contact .section-heading {
@@ -82,4 +83,100 @@ header.masthead .container {
 
 #contact .section-subheading {
     color: rgba(255, 255, 255, 0.7);
+}
+
+/* Custom CSS */
+
+/* Feature icons in About section */
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+/* Card hover effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* About section styling */
+.about-list {
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+
+.about-list li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.about-list .fa-check-circle {
+    color: var(--bs-primary);
+    font-size: 1.2rem;
+}
+
+/* Phone contact section styling */
+#phone-contact {
+    background-color: #212529;
+    margin-top: -1px; /* Removes gap between sections */
+}
+
+#phone-contact .btn-primary {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* WhatsApp button styling */
+.btn-success {
+    --bs-btn-bg: #25D366;
+    --bs-btn-border-color: #25D366;
+    --bs-btn-hover-bg: #128C7E;
+    --bs-btn-hover-border-color: #128C7E;
+    --bs-btn-active-bg: #128C7E;
+    --bs-btn-active-border-color: #128C7E;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Instructor image styling */
+.instructor-contact-img {
+    border: 4px solid var(--bs-primary);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact form styling */
+#contact select.form-control {
+    height: calc(3.5rem + 2px);
+}
+
+#contact .form-check-input:checked {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    #phone-contact .instructor-contact-img {
+        max-width: 150px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Responsive image adjustments - verwijderd omdat de afbeelding niet meer gebruikt wordt */
+
+/* Subtle separator line */
+.separator-line {
+    height: 1px;
+    background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.5), rgba(255,255,255,0.1));
+    margin: 1.5rem 0;
+    opacity: 0.8;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 } 
