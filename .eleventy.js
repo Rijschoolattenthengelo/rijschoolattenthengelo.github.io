@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"src/css": "css"});
     eleventyConfig.addPassthroughCopy({"src/js": "js"});
     eleventyConfig.addPassthroughCopy({"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js": "js/bootstrap.bundle.min.js"});
+    eleventyConfig.addPassthroughCopy({"src/CNAME": "CNAME"});
 
     // Base config
     return {
