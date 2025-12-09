@@ -263,4 +263,23 @@ header.masthead .container {
     .modal-footer {
         padding: 1rem;
     }
+}
+
+/* Instagram link in navigation */
+.instagram-nav-item {
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.instagram-nav-item:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.instagram-nav-item i {
+    font-size: 20px;
 } 
