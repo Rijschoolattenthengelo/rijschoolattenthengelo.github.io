@@ -282,4 +282,48 @@ header.masthead .container {
 
 .instagram-nav-item i {
     font-size: 20px;
+}
+
+/* Hide Elfsight branding text and footer */
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 a[href*="elfsight.com"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 a[title*="Free Instagram Feed Widget"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 a[href*="utm_source=websites"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 .elfsight-widget-footer,
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 .elfsight-powered-by,
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 [class*="powered"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 [class*="branding"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 [class*="footer"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 [id*="powered"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 [id*="branding"],
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 [id*="footer"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+}
+
+/* Hide the specific branding link with inline styles */
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 a[style*="translateX(-50%)"][style*="z-index:99999"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+/* Hide any links or text that might contain branding */
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 iframe + *,
+.elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 > div:last-child:not([class*="instagram"]) {
+    display: none !important;
 } 
