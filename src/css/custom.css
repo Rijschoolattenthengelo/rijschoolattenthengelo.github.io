@@ -284,6 +284,37 @@ header.masthead .container {
     font-size: 20px;
 }
 
+/* Motorrijles section */
+#motorrijles .motor-sfeer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 26rem;
+}
+
+#motorrijles .portfolio-item {
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+#motorrijles .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#motorrijles .motor-actieprijs {
+    display: block;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #3498db;
+}
+
+#motorrijles .motor-normaalprijs {
+    display: block;
+    font-size: 0.9rem;
+}
+
 /* Hide Elfsight branding text and footer */
 .elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 a[href*="elfsight.com"],
 .elfsight-app-7c3ed4c0-f91b-4375-a916-26d3b5404a08 a[title*="Free Instagram Feed Widget"],
