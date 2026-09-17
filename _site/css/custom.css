@@ -40,6 +40,117 @@ section#contact form#contactForm .form-control:focus {
   color: #3498db !important;
 }
 
+#mainNav .navbar-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 991.98px) {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #reviews {
+    overflow-x: hidden;
+  }
+
+  #mainNav {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #mainNav > .container {
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #mainNav .navbar-brand {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: calc(100% - 5.5rem);
+    margin-right: 0.5rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+  }
+
+  #mainNav .navbar-brand span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #mainNav .navbar-logo {
+    height: 36px;
+    margin-right: 8px;
+  }
+
+  #mainNav .navbar-toggler {
+    flex-shrink: 0;
+    margin-left: auto;
+    padding: 0.4rem 0.55rem;
+    font-size: 0.7rem;
+  }
+
+  #mainNav .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  #mainNav .navbar-nav {
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  header.masthead .masthead-heading {
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #mainNav .navbar-brand {
+    max-width: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 0.2rem;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.78rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  #mainNav .navbar-logo {
+    height: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #mainNav .navbar-logo {
+    height: 50px;
+  }
+}
+
 header.masthead {
   height: 100vh;
   padding-top: 0;
@@ -291,8 +402,8 @@ header.masthead .container {
 }
 
 #motorrijles .motor-sfeer img {
-    width: auto;
-    max-width: 26rem;
+    width: 100%;
+    max-width: min(26rem, 100%);
 }
 
 #motorrijles .portfolio-item {
