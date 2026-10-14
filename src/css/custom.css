@@ -172,6 +172,21 @@ header.masthead .container {
   color: white !important;
 }
 
+#portfolio .proefles-teaser {
+  padding: 0.75rem 1.5rem;
+}
+
+#portfolio .proefles-teaser i,
+#portfolio .proefles-teaser svg {
+  font-size: 64px;
+  width: 64px;
+  height: 64px;
+}
+
+#portfolio .proefles-verrekening {
+  font-size: 0.8rem;
+}
+
 #submitButton {
   background-color: #3498db !important;
   border-color: #3498db !important;
